@@ -1,0 +1,19 @@
+p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.model{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.order{
+    font-size: 18px;
+}
+
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}

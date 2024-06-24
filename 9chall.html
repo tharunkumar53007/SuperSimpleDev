@@ -39,26 +39,27 @@
 }
 
 .im1{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
     object-fit: cover;
     object-position: center;
 }
 
 .p1{
-    margin: 0;
+   
     font-size: 14px;
     margin-top: 5px;
     font-weight: bold;
-    margin-left: 4px;
+    margin-left: 8px;
+    margin-bottom: 1px;
 }
 
 .p2{
     font-size: 13px;
     color: rgb(70, 70, 70);
-    margin-top: 4px;
-    margin-bottom: 10px;
-    margin-left: 4px;
+   
+    vertical-align: middle;
 }
 
 .bt1{
@@ -66,23 +67,44 @@
     border: none;
     color: white;
     padding: 6px 10px 6px 10px;
-    margin-left: 4px;
+    margin-left: 8px;
     font-size: 12px;
     border-radius: 3px;
     cursor: pointer;
     
 }
 .box1{
-    display: inline-block;
+   
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.342);
     padding-bottom: 8px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 8px;
+    width: 200px;
 }
 
 .main{
-    display: flex;
-    justify-content: center;
+   display: grid;
+   grid-template-columns: 200px 200px 200px;
+   align-items: center;
+   column-gap: 15px;
+}
+.im2{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+   
+    vertical-align: middle;
+    
+}
+.mutual{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    align-items: center;
+    
+    margin-left: 8px;
+   margin-bottom: 5px;
 }
 </style>
 
@@ -98,21 +120,31 @@
     <div class="box1">
         <img src="itachi uchiha.jpg" class="im1">
         <p class="p1">Itachi Uchiha</p>
-        <p class="p2">2 mutual friends</p>
+        <div class="mutual">
+            <img class="im2" src="Rog Compressed.jpg">
+            <p class="p2">2 mutual friends</p>
+        </div>
+       
         <button class="bt1">Add Friend</button>
         </div>
         
         <div class="box1">
             <img src="Naruto-Cover.avif" class="im1">
             <p class="p1">Naruto Uzumaki</p>
-            <p class="p2">2 mutual friends</p>
+            <div class="mutual">
+                <img class="im2" src="Rog Compressed.jpg">
+                <p class="p2">4 mutual friends</p>
+            </div>
             <button class="bt1">Add Friend</button>
             </div>
         
             <div class="box1">
                 <img src="kakashi.jpeg" class="im1">
                 <p class="p1">Kakashi Hatake</p>
-                <p class="p2">2 mutual friends</p>
+                <div class="mutual">
+                    <img class="im2" src="Rog Compressed.jpg">
+                    <p class="p2">6 mutual friends</p>
+                </div>
                 <button class="bt1">Add Friend</button>
                 </div>
         

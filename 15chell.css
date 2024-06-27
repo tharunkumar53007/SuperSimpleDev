@@ -1,0 +1,43 @@
+.product{
+    display: inline-block;
+   
+    position: relative;
+}
+
+.container{
+    position: relative;
+}
+
+.container img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.offer{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 3px 7px 3px 7px; 
+    font-size: 14px;
+    top: 10px;
+    right: 0;
+    font-weight: bold;
+}
+
+.drop{
+    background-color: rgba(202, 202, 202, 0.87);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 0;
+    border: 1px solid black;
+}
